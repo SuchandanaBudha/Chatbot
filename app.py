@@ -9,7 +9,7 @@ client = Groq(api_key=GROQ_API_KEY)
 
 # Page config
 st.set_page_config(page_title="Gemma 2 Chatbot", page_icon="🤖")
-st.title("💬 Chat with Gemma 2 (9B-Instruct) via Groq")
+st.title("💬 GemmaBot")
 
 # Initialize message history
 if "messages" not in st.session_state:
